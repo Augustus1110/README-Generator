@@ -5,7 +5,7 @@ function renderLicenseBadge(license) {
     return `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`
   }
   else if(license === "Apache"){
-    return `[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)`
+    return `[![License: Apache](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)`
   }
   else if(license === "None"){
     return ``
@@ -14,7 +14,17 @@ function renderLicenseBadge(license) {
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
-function renderLicenseLink(license) {}
+
+function renderLicenseLink(license) {
+  if (license === "MIT") {
+    return `(https://opensource.org/licenses/MIT)`;
+  } else if (license === "Apache") {
+    return `(https://opensource.org/licenses/Apache-2.0)`;
+  } else {
+    return '';
+  }
+}
+
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
@@ -24,10 +34,12 @@ function renderLicenseSection(license) {}
 function generateMarkdown(data) {
   return `# ${data.title}
 ${renderLicenseBadge(data.license)}
-  # Table of Contents
+
+
+## Table of Contents
 1. [Description](#description)
 2. [Installation](#installation)
-3. [Third Example](#third-example)
+3. [License](#license)
 ## Description
 ${data.description}
 
@@ -35,6 +47,7 @@ ${data.description}
 ${data.installation}
 ## License
 ${data.license}
+${renderLicenseLink(data.license)}
 `;
 }
 

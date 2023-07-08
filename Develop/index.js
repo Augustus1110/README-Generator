@@ -12,7 +12,7 @@ const questions = [
     {
         type: 'input',
         name: 'description',
-        message: 'Please leave a brief description of your project.',
+        message: 'Please write a brief description of your project.',
     },
     {
         type: 'input',
@@ -20,11 +20,22 @@ const questions = [
         message: 'How do you install your project?',
     },
     {
+        type: 'input',
+        name: 'usage',
+        message: 'Please enter usage information.',
+    },
+    {
+        type: 'input',
+        name: 'contribution',
+        message: 'Please enter the contribution guidelines.',
+    },
+    {
         type: "list",
         name: "license",
         message: "What license would you like to use?",
         choices: ["MIT", "Apache", "None"]
     }
+    
 ];
 
 // TODO: Create a function to write README file
