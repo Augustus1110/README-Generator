@@ -36,8 +36,12 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'Questions',
-        message: '',
+        name: 'github',
+        message: 'What is your GitHub username?',
+    },
+    {   type: 'input',
+        name: 'email',
+        message: 'What is your email address?'
     },
     {
         type: "list",
