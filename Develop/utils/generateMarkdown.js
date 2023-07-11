@@ -20,17 +20,14 @@ function renderLicenseLink(license) {
     return `(https://opensource.org/licenses/MIT)`;
   } else if (license === "Apache") {
     return `(https://opensource.org/licenses/Apache-2.0)`;
-  } else {
-    return '';
+  } 
+  else if(license === "None"){
+    return ``
   }
 }
 
 
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
-function renderLicenseSection(license) {}
-
-// TODO: Create a function to generate markdown for README
+// Creates a function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
 ${renderLicenseBadge(data.license)}
@@ -39,12 +36,32 @@ ${renderLicenseBadge(data.license)}
 ## Table of Contents
 1. [Description](#description)
 2. [Installation](#installation)
-3. [License](#license)
+3. [Usage](#usage)
+4. [Contributing](#contributing)
+5. [Tests](#tests)
+6. [Description](#description)
+7. [License](#license)
+
+
 ## Description
 ${data.description}
 
 ## Installation
 ${data.installation}
+
+## Usage
+${data.}
+
+## Contributing
+${data.}
+
+
+## Tests
+${data.}
+
+## Description
+${data.}
+
 ## License
 ${data.license}
 ${renderLicenseLink(data.license)}

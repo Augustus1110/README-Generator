@@ -26,8 +26,18 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'contribution',
-        message: 'Please enter the contribution guidelines.',
+        name: 'contributing',
+        message: 'Please enter the contributing guidelines.',
+    },
+    {
+        type: 'input',
+        name: 'tests',
+        message: 'Please enter the testing guidelines.',
+    },
+    {
+        type: 'input',
+        name: 'Questions',
+        message: '',
     },
     {
         type: "list",
