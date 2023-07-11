@@ -28,6 +28,7 @@ function renderLicenseLink(license) {
 
 // Creates a function to generate markdown for README
 function generateMarkdown(data) {
+  const githubLink = `https://github.com/${data.github}`;
   return `# ${data.title}
 ${renderLicenseBadge(data.license)}
 
@@ -58,7 +59,10 @@ ${data.contributing}
 ${data.tests}
 
 ## Questions
-${data.questions}
+If you have any questions, please reach out to me:
+
+- GitHub: [${data.github}](${githubLink})
+- Email: ${data.email}
 
 ## License
 ${data.license}

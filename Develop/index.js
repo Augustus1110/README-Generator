@@ -52,10 +52,10 @@ const questions = [
     
 ];
 
-// TODO: Create a function to write README file
+// Creates a function to write README file
 function writeToFile(fileName, data) {}
 
-// TODO: Create a function to initialize app
+// Creates a function to initialize app
 function init() {
     inquirer.prompt(questions).then((answers) => {
         console.log(answers)
