@@ -7,7 +7,7 @@ function renderLicenseBadge(license) {
   else if (license === "MIT"){
     return `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`
   }
-  else if(license === "None"){
+  else if(license === `None`){
     return ``
   }
 }
@@ -21,7 +21,7 @@ function renderLicenseLink(license) {
   } else if (license === `Apache`) {
     return `(https://opensource.org/licenses/Apache-2.0)`;
   } 
-  else if(license === "None"){
+  else if(license === `None`){
     return ``
   }
 }
@@ -49,6 +49,12 @@ ${data.description}
 ## Installation
 ${data.installation}
 
+## Screenshots
+
+![index.js]()
+![generateMarkdown.js]()
+![README Sample]()
+
 ## Usage
 ${data.usage}
 
@@ -59,7 +65,7 @@ ${data.contributing}
 ${data.tests}
 
 ## Questions
-If you have any questions, please reach out to me:
+If you have any questions, please contact me:
 
 - GitHub: [${data.github}](${githubLink})
 - Email: ${data.email}
