@@ -39,6 +39,7 @@ ${renderLicenseBadge(data.license)}
 2. [Installation](#installation)
 3. [Usage](#usage)
 4. [Contributing](#contributing)
+5. [Collaborators](#collaborators)
 5. [Tests](#tests)
 6. [Questions](#questions)
 7. [License](#license)
@@ -60,6 +61,9 @@ ${data.usage.replaceAll('\\n', '\n')}
 
 ## Contributing
 ${data.contributing.replaceAll('\\n', '\n')}
+
+## Collaborators
+${data.collaborators.replaceAll('\\n', '\n')}
 
 ## Tests
 ${data.tests.replaceAll('\\n', '\n')}

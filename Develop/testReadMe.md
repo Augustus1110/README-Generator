@@ -7,6 +7,7 @@
 2. [Installation](#installation)
 3. [Usage](#usage)
 4. [Contributing](#contributing)
+5. [Collaborators](#collaborators)
 5. [Tests](#tests)
 6. [Questions](#questions)
 7. [License](#license)
@@ -21,7 +22,7 @@ Installation, Usage, Contributing, Tests, Questions, and License.
 To install the README Generator, follow these steps:
  1. Clone the GitHub repository: `git clone https://github.com/Augustus1110/README-Generator.git`
  2. Navigate to the project's directory: `cd README-Generator`
- 3. Install the required npm packages: `npm install`.
+ 3. Install the required npm packages: `npm install`
 
 ## Usage
 To use the README Generator, follow these steps:
@@ -42,6 +43,9 @@ Contributions to the README Generator are welcome. To contribute, please follow 
  3. Make your changes and commit them.
  4. Push your changes to your forked repository.
  5. Submit a pull request detailing your changes.
+
+## Collaborators
+This project was completed with guidance and assistance from UC Berkeley Extension tutor Robby Kurle.
 
 ## Tests
 Tests are currently not available for this project.
