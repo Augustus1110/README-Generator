@@ -29,6 +29,7 @@ function renderLicenseLink(license) {
 // Creates a function to generate markdown for README
 function generateMarkdown(data) {
   const githubLink = `https://github.com/${data.github}`;
+  const screenshotsPath = "../images/"; 
   return `# ${data.title}
 ${renderLicenseBadge(data.license)}
 
@@ -44,25 +45,22 @@ ${renderLicenseBadge(data.license)}
 
 
 ## Description
-${data.description}
+${data.description.replaceAll('\\n', '\n')}
 
 ## Installation
-${data.installation}
-
-## Screenshots
-
-![index.js]()
-![generateMarkdown.js]()
-![README Sample]()
+${data.installation.replaceAll('\\n', '\n')}
 
 ## Usage
-${data.usage}
+${data.usage.replaceAll('\\n', '\n')}
+
+## Images
+![Screenshot](./images/screenshot.png)
 
 ## Contributing
-${data.contributing}
+${data.contributing.replaceAll('\\n', '\n')}
 
 ## Tests
-${data.tests}
+${data.tests.replaceAll('\\n', '\n')}
 
 ## Questions
 If you have any questions, please contact me:
