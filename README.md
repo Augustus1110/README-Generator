@@ -13,9 +13,7 @@
 
 
 ## Description
-This README Generator is a Node.js application that helps generate a professional README.md file for your projects. It prompts the user with a series of 
-questions about the project and generates a README.md file based on the user's responses. The generated file includes sections such as Description 
-Installation, Usage, Contributing, Tests, Questions, and License.
+This README Generator is a Node.js application that helps generate a professional README.md file for your projects. It prompts the user with a series of questions about the project and generates a README.md file based on the user's responses. The generated file includes sections such as Description Installation, Usage, Contributing, Tests, Questions, and License.
 
 ## Installation
 To install the README Generator, follow these steps:
@@ -42,6 +40,9 @@ Contributions to the README Generator are welcome. To contribute, please follow 
  3. Make your changes and commit them.
  4. Push your changes to your forked repository.
  5. Submit a pull request detailing your changes.
+
+## Collaborators
+This project was completed with guidance and assistance from UC Berkeley Extension tutor Robby Kurle.
 
 ## Tests
 Tests are currently not available for this project.
