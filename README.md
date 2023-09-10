@@ -31,9 +31,9 @@ To use the README Generator, follow these steps:
  4. Once you have answered all the questions, the README.md file will be generated in the current directory.
 
 ## Images
-![Screenshot](./images/index-js.png)
-![Screenshot](./images/prompts.png)
-![Screenshot](./images/readme.png)
+![Screenshot](./Develop/images/index-js.png)
+![Screenshot](./Develop/images/prompts.png)
+![Screenshot](./Develop/images/readme.png)
 
 ## Contributing
 Contributions to the README Generator are welcome. To contribute, please follow these guidelines:

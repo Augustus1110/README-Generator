@@ -54,7 +54,9 @@ ${data.installation.replaceAll('\\n', '\n')}
 ${data.usage.replaceAll('\\n', '\n')}
 
 ## Images
-![Screenshot](./images/screenshot.png)
+![Screenshot](./images/index-js.png)
+![Screenshot](./images/prompts.png)
+![Screenshot](./images/readme.png)
 
 ## Contributing
 ${data.contributing.replaceAll('\\n', '\n')}
