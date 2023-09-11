@@ -7,9 +7,10 @@
 2. [Installation](#installation)
 3. [Usage](#usage)
 4. [Contributing](#contributing)
-5. [Tests](#tests)
-6. [Questions](#questions)
-7. [License](#license)
+5. [Collaborators](#collaborators)
+6. [Tests](#tests)
+7. [Questions](#questions)
+8. [License](#license)
 
 
 ## Description

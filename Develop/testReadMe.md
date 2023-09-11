@@ -8,9 +8,9 @@
 3. [Usage](#usage)
 4. [Contributing](#contributing)
 5. [Collaborators](#collaborators)
-5. [Tests](#tests)
-6. [Questions](#questions)
-7. [License](#license)
+6. [Tests](#tests)
+7. [Questions](#questions)
+8. [License](#license)
 
 
 ## Description
