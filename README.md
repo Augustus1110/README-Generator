@@ -43,7 +43,7 @@ Contributions to the README Generator are welcome. To contribute, please follow 
  5. Submit a pull request detailing your changes.
 
 ## Collaborators
-This project was completed with guidance and assistance from UC Berkeley Extension tutor Robby Kurle.
+This project was completed with guidance and assistance and collaboration from UC Berkeley Extension tutor Robby Kurle. Code sourced from EdX curriculum content was used for guidance.
 
 ## Tests
 Tests are currently not available for this project.
